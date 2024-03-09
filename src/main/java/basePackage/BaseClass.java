@@ -8,8 +8,10 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.time.Duration;
 import java.util.Base64;
+import java.util.Iterator;
 import java.util.List;
 import java.util.Properties;
+import java.util.Set;
 import java.util.concurrent.TimeUnit;
 import org.apache.commons.io.FileUtils;
 import org.apache.poi.ss.usermodel.Cell;
@@ -163,7 +165,17 @@ public class BaseClass {
 					}
 				}
 			}
-			
+			public static void switchWindowMethod() {
+				String parentWindow = driver.getWindowHandle();
+				Set<String> totalwindowhandles = driver.getWindowHandles();
+				Iterator<String> iterator = totalwindowhandles.iterator();
+				while(iterator.hasNext()) {
+					String childWindow =iterator.next();
+					if(!parentWindow.equalsIgnoreCase(childWindow)) {
+						driver.switchTo().window(childWindow);
+					}
+				}
+			}
 			public static void clearMethod(WebElement clearElement) {
 				try {
 					clearElement.clear();
@@ -246,6 +258,10 @@ public class BaseClass {
 				
 			}
 			
+			public static boolean containsMethod(String acutal,String expected) {
+				return acutal.contains(expected);
+			}
+			
 			public static int listSizeMethod(List<WebElement> element) {
 				return element.size();
 			}
@@ -254,6 +270,9 @@ public class BaseClass {
 			}
 			public static boolean isSelectedMethod(WebElement isSelectWebElement) {	
 				return isSelectWebElement.isSelected();
+			}
+			public static void submitMethod(WebElement element) {
+				element.submit();
 			}
 			public static void takesScreenShotMethod() throws IOException {
 				try {

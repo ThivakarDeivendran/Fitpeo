@@ -1,5 +1,7 @@
 package testPackage;
 
+import static org.testng.Assert.assertTrue;
+
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Set;
@@ -34,7 +36,7 @@ public class FitpeoTest  extends BaseClass{
 	public static Logger logger;
 	public static WebDriver driver;
 	public static PageObjectClass pageObject;
-	
+	public static String expectedElement;
 	@BeforeClass
 	public static Logger logger() {
 		logger = Logger.getLogger("FlipKart App");
@@ -86,67 +88,71 @@ public class FitpeoTest  extends BaseClass{
 	@Step("To verify the Search and AddToCart display or not")
 	@Severity(SeverityLevel.MINOR)
 	public static void SearchAndAddToCartMethod() throws Exception{
-		
+		sendKeysMethod(pageObject.getSearchTextBox(), readPropertyFile("userInput"));
+		submitMethod(pageObject.getSearchTextBox());
+		logger.info("************FlipKart Search Products*********");
+		staticWaitMethod(5000);
+		clickMethod(pageObject.getSearchFirstElement());
+		staticWaitMethod(5000);
+		switchWindowMethod();
+		logger.info("************"+driver.getTitle()+"*********");
+		Assert.assertTrue(isdisplayedMethod(pageObject.getAddToCartButton()),"Add To cart Button not display");
+		Assert.assertTrue(isdisplayedMethod(pageObject.getBuyNowButton()),"Buy Now Button not display");
+		expectedElement=getTextMethod(pageObject.getProductDetailText());
+		logger.info("************Add To Cart display Successfully*********");
+		clickMethod(pageObject.getAddToCartButton());
+		staticWaitMethod(5000);
+		logger.info("************"+driver.getTitle()+"*********");
+		Assert.assertTrue(containsMethod(getTextMethod(pageObject.getCartProductElement()), expectedElement),"Selected product not display in the Cart");
+		logger.info("************selected product successfully display in the cart*********");
+		Assert.assertTrue(isdisplayedMethod(pageObject.getPlaceOrderButton()), "Place Order button not displayed");
+		staticWaitMethod(2000);
+		clickMethod(pageObject.getPlaceOrderButton());
+		staticWaitMethod(2000);
+		logger.info("************"+driver.getTitle()+"*********");
 	}
-	
+	@Test(priority = 4, description ="FlipKark order Summary and Payment option")
+	@Description("Flipkart Order Summary and Payment Validation")
+	@Epic("Fitpeo")
+	@Feature("Feature 4")
+	@Story("Test_Case 4")
+	@Step("To verify the Order Summary page and Payment option")
+	@Severity(SeverityLevel.CRITICAL)
+	public static void ShippingPaymentMethod() throws Exception{
+		sendKeysMethod(pageObject.getEmailMobileNumber(), readPropertyFile("PhoneNumber"));
+		staticWaitMethod(2000);
+		clickMethod(pageObject.getSignUpContinueButton());
+		staticWaitMethod(7000);
+		clickMethod(pageObject.getLoginButton());
+		staticWaitMethod(2000);
+		clickMethod(pageObject.getNewAddressLink());
+		staticWaitMethod(4000);
+		sendKeysMethod(pageObject.getNameTextBox(), readPropertyFile("DeliveryUserName"));
+		staticWaitMethod(3000);
+		sendKeysMethod(pageObject.getPhoneNumberTextBox(), readPropertyFile("PhoneNumber"));
+		staticWaitMethod(3000);
+		sendKeysMethod(pageObject.getPincodeTextbox(), readPropertyFile("DeliveryPinCode"));
+		staticWaitMethod(2000);
+		sendKeysMethod(pageObject.getLocalityTextBox(), readPropertyFile("DeliveryLocality"));
+		staticWaitMethod(3000);
+		sendKeysMethod(pageObject.getAddressTextBox(), readPropertyFile("DelivaryAddress"));
+		staticWaitMethod(2000);
+		clickMethod(pageObject.getAddressTypeRadioButton());
+		staticWaitMethod(5000);
+		clickMethod(pageObject.getSaveDeliveryButton());
+		staticWaitMethod(2000);
+		clickMethod(pageObject.getContinueButton());
+		staticWaitMethod(5000);
+		clickMethod(pageObject.getAcceptContinueButton());
+		staticWaitMethod(2000);
+		clickMethod(pageObject.getCreditAtmRadioButton());
+		staticWaitMethod(3000);
+		clickMethod(pageObject.getOrderSummaryCancelButton());
+	} 
 
-//		public static void main(String[] args) throws InterruptedException {
-//		
-//
-//			System.setProperty("webdriver.chrome.driver", "F:\\Eclipse\\eclipse1\\FitPeo\\Driver\\chromedriver.exe");
-//
-//			ChromeOptions options = new ChromeOptions();
-//			options.addArguments("--incognito");
-//			
-//			WebDriver driver = new ChromeDriver(options);
-//			driver.manage().window().maximize();
-//
-//			driver.get("https://www.flipkart.com/");
-//
-//			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-//
-//			// verifying homepage is loading successfully
-//
-//			WebElement homePageLogo = driver.findElement(By.xpath("//img[@title='Flipkart']"));
-//			if (homePageLogo.isDisplayed()) {
-//				System.out.println("Homepage loaded successfully.");
-//			} else {
-//				System.out.println("Homepage failed to load");
-//				driver.quit();
-//				return;
-//			}
-//
-//			WebElement searchLaptop = driver.findElement(By.xpath("//input[@type='text']"));
-//			searchLaptop.sendKeys("Laptops");
-//			searchLaptop.submit();
-//
-//			WebElement clicklaptop = driver.findElement(By.xpath("(//div[@class='_4rR01T'])[1]"));
-//			clicklaptop.click();
-//
-//			// Selected Laptop Name
-//			String selectedLaptopName = clicklaptop.getText();
-//			System.out.println(selectedLaptopName);
-//
-//			// To switch to new Window and perform actions
-//			Set<String> windowHandles = driver.getWindowHandles();
-//			ArrayList<String> a = new ArrayList<>(windowHandles);
-//
-//			String title = driver.switchTo().window(a.get(1)).getTitle();
-//			System.out.println(title);
-//
-//			WebElement pinCodeEnter = driver.findElement(By.xpath("(//input[@type='text'])[2]"));
-//			pinCodeEnter.sendKeys("600024");
-//			pinCodeEnter.sendKeys(Keys.ENTER);
-//
-//			Thread.sleep(3000);
-//			WebElement addToCart = driver.findElement(By.xpath("//button[@class='_2KpZ6l _2U9uOA _3v1-ww']"));
-//			addToCart.click();
-//
-//			WebElement product = driver.findElement(By.xpath("//a[@class='_2Kn22P gBNbID']"));
-//			String productName = product.getText();
-//			System.out.println(productName);
-//
-//			// Verifying the prodcut name with the help of the title name
+
+
+
 //			try {
 //				Assert.assertEquals(selectedLaptopName, productName);
 //				System.out.println("Selected Laptop and Laptop added in Cart are same");
