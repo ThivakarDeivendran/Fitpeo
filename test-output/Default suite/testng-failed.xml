@@ -6,8 +6,7 @@
       <class name="testPackage.FitpeoTest">
         <methods>
           <include name="logger"/>
-          <include name="UserLoginTitleMethod"/>
-          <include name="SearchAndAddToCartMethod"/>
+          <include name="ShippingPaymentMethod"/>
           <include name="quitMethod"/>
         </methods>
       </class> <!-- testPackage.FitpeoTest -->

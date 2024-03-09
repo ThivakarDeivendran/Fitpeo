@@ -40,10 +40,11 @@ public class BaseClass {
 				try {
 				switch (browser) {
 				case "Chrome":
-					ChromeOptions option = new ChromeOptions();
-		            option.addArguments("--remote-allow-origins=*");
-					WebDriverManager.chromedriver().setup();
-					driver = new ChromeDriver(option);
+//					ChromeOptions option = new ChromeOptions();
+//		            option.addArguments("--remote-allow-origins=*");
+//					WebDriverManager.chromedriver().setup();
+					System.setProperty("webdriver.chrome.driver",".\\Driver\\chromedriver.exe");
+					driver = new ChromeDriver();
 					break;
 				case "Edge":
 					WebDriverManager.edgedriver().setup();
@@ -134,12 +135,8 @@ public class BaseClass {
 				return dataformat.formatCellValue(cellValue);
 			}
 			
-			public static void clickMethod(WebElement clickElement ) {
-				try {
+			public static void clickMethod(WebElement clickElement ) {			
 					clickElement.click();
-				}catch(Exception e) {
-					
-				}
 			}
 			public static void forEachMethod(List<WebElement> listDropDown, String userValue) {
 				for (WebElement selectDropDown :listDropDown ) {

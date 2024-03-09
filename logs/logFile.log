@@ -1,18 +1,38 @@
-2024-03-08 09:29:54 INFO  FlipKart App:64 - ************ Launch Chrome Browser*********
-2024-03-08 09:30:00 INFO  FlipKart App:77 - ************ Open Flipkart Application*********
-2024-03-08 09:30:01 INFO  FlipKart App:81 - ************FlipKart HomePage Verified SuccessFully*********
-2024-03-08 09:30:09 INFO  FlipKart App:93 - ************FlipKart Search Products*********
-2024-03-08 09:30:19 INFO  FlipKart App:98 - ************Acer Aspire 3 Intel Core i3 12th Gen 1215U - (8 GB/512 GB SSD/Windows 11 Home) A315-59 Thin and Light Laptop Rs.44100 Price in India - Buy Acer Aspire 3 Intel Core i3 12th Gen 1215U - (8 GB/512 GB SSD/Windows 11 Home) A315-59 Thin and Light Laptop Pure Silver Online - Acer : Flipkart.com*********
-2024-03-08 09:30:19 INFO  FlipKart App:102 - ************Add To Cart display Successfully*********
-2024-03-08 09:30:24 INFO  FlipKart App:105 - ************Shopping Cart | Flipkart.com*********
-2024-03-08 17:05:26 INFO  FlipKart App:64 - ************ Launch Chrome Browser*********
-2024-03-08 17:05:28 INFO  FlipKart App:77 - ************ Open Flipkart Application*********
-2024-03-08 17:06:03 INFO  FlipKart App:64 - ************ Launch Chrome Browser*********
-2024-03-08 17:06:08 INFO  FlipKart App:77 - ************ Open Flipkart Application*********
-2024-03-08 17:06:09 INFO  FlipKart App:81 - ************FlipKart HomePage Verified SuccessFully*********
-2024-03-08 17:06:13 INFO  FlipKart App:93 - ************FlipKart Search Products*********
-2024-03-08 17:06:24 INFO  FlipKart App:98 - ************Acer Aspire 3 Intel Core i3 12th Gen 1215U - (8 GB/512 GB SSD/Windows 11 Home) A315-59 Thin and Light Laptop Rs.44100 Price in India - Buy Acer Aspire 3 Intel Core i3 12th Gen 1215U - (8 GB/512 GB SSD/Windows 11 Home) A315-59 Thin and Light Laptop Pure Silver Online - Acer : Flipkart.com*********
-2024-03-08 17:06:24 INFO  FlipKart App:102 - ************Add To Cart display Successfully*********
-2024-03-08 17:06:29 INFO  FlipKart App:105 - ************Shopping Cart | Flipkart.com*********
-2024-03-08 22:00:07 INFO  FlipKart App:64 - ************ Launch Chrome Browser*********
-2024-03-08 22:00:09 INFO  FlipKart App:77 - ************ Open Flipkart Application*********
+2024-03-09 22:01:47 INFO  FlipKart App:52 - ************ Launch Chrome Browser*********
+2024-03-09 22:01:49 INFO  FlipKart App:65 - ************ Open Flipkart Application*********
+2024-03-09 22:05:40 INFO  FlipKart App:64 - ************ Launch Chrome Browser*********
+2024-03-09 22:05:42 INFO  FlipKart App:77 - ************ Open Flipkart Application*********
+2024-03-09 22:10:13 INFO  FlipKart App:64 - ************ Launch Chrome Browser*********
+2024-03-09 22:10:15 INFO  FlipKart App:77 - ************ Open Flipkart Application*********
+2024-03-09 23:28:10 INFO  FlipKart App:64 - ************ Launch Chrome Browser*********
+2024-03-09 23:28:13 INFO  FlipKart App:77 - ************ Open Flipkart Application*********
+2024-03-09 23:29:42 INFO  FlipKart App:65 - ************ Launch Chrome Browser*********
+2024-03-09 23:31:25 INFO  FlipKart App:65 - ************ Launch Chrome Browser*********
+2024-03-09 23:31:27 INFO  FlipKart App:78 - ************ Open Flipkart Application*********
+2024-03-09 23:36:45 INFO  FlipKart App:65 - ************ Launch Chrome Browser*********
+2024-03-09 23:36:47 INFO  FlipKart App:78 - ************ Open Flipkart Application*********
+2024-03-09 23:56:31 INFO  FlipKart App:65 - ************ Launch Chrome Browser*********
+2024-03-09 23:56:33 INFO  FlipKart App:78 - ************ Open Flipkart Application*********
+2024-03-10 00:04:04 INFO  FlipKart App:65 - ************ Launch Chrome Browser*********
+2024-03-10 00:04:06 INFO  FlipKart App:78 - ************ Open Flipkart Application*********
+2024-03-10 00:04:10 INFO  FlipKart App:82 - ************FlipKart HomePage Verified SuccessFully*********
+2024-03-10 00:04:51 INFO  FlipKart App:65 - ************ Launch Chrome Browser*********
+2024-03-10 00:04:53 INFO  FlipKart App:78 - ************ Open Flipkart Application*********
+2024-03-10 00:06:05 INFO  FlipKart App:65 - ************ Launch Chrome Browser*********
+2024-03-10 00:06:17 INFO  FlipKart App:78 - ************ Open Flipkart Application*********
+2024-03-10 00:06:18 INFO  FlipKart App:82 - ************FlipKart HomePage Verified SuccessFully*********
+2024-03-10 00:06:29 INFO  FlipKart App:94 - ************FlipKart Search Products*********
+2024-03-10 00:06:40 INFO  FlipKart App:99 - ************Acer Aspire 3 Intel Core i3 12th Gen 1215U - (8 GB/512 GB SSD/Windows 11 Home) A315-59 Thin and Light Laptop Rs.44100 Price in India - Buy Acer Aspire 3 Intel Core i3 12th Gen 1215U - (8 GB/512 GB SSD/Windows 11 Home) A315-59 Thin and Light Laptop Pure Silver Online - Acer : Flipkart.com*********
+2024-03-10 00:06:40 INFO  FlipKart App:103 - ************Add To Cart display Successfully*********
+2024-03-10 00:06:45 INFO  FlipKart App:106 - ************Shopping Cart | Flipkart.com*********
+2024-03-10 00:06:45 INFO  FlipKart App:108 - ************selected product successfully display in the cart*********
+2024-03-10 00:06:51 INFO  FlipKart App:113 - ************Flipkart.com: Secure Payment: Login > Select Shipping Address > Review Order > Place Order*********
+2024-03-10 00:10:29 INFO  FlipKart App:65 - ************ Launch Chrome Browser*********
+2024-03-10 00:10:36 INFO  FlipKart App:78 - ************ Open Flipkart Application*********
+2024-03-10 00:10:37 INFO  FlipKart App:82 - ************FlipKart HomePage Verified SuccessFully*********
+2024-03-10 00:10:41 INFO  FlipKart App:94 - ************FlipKart Search Products*********
+2024-03-10 00:10:53 INFO  FlipKart App:99 - ************Acer Aspire 3 Intel Core i3 12th Gen 1215U - (8 GB/512 GB SSD/Windows 11 Home) A315-59 Thin and Light Laptop Rs.44100 Price in India - Buy Acer Aspire 3 Intel Core i3 12th Gen 1215U - (8 GB/512 GB SSD/Windows 11 Home) A315-59 Thin and Light Laptop Pure Silver Online - Acer : Flipkart.com*********
+2024-03-10 00:10:55 INFO  FlipKart App:103 - ************Add To Cart display Successfully*********
+2024-03-10 00:11:01 INFO  FlipKart App:106 - ************Shopping Cart | Flipkart.com*********
+2024-03-10 00:11:01 INFO  FlipKart App:108 - ************selected product successfully display in the cart*********
+2024-03-10 00:11:09 INFO  FlipKart App:113 - ************Flipkart.com: Secure Payment: Login > Select Shipping Address > Review Order > Place Order*********
