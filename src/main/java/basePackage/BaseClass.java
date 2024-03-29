@@ -35,6 +35,8 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class BaseClass {	
 			public static  WebDriver driver;
+			
+			public static ThreadLocal<WebDriver> threadLocalDriver = new ThreadLocal<WebDriver>();
 
 			public static WebDriver launchBrowserMethod(String browser) {
 				try {
@@ -60,7 +62,11 @@ public class BaseClass {
 				}catch(Exception e) {
 					
 				}
-				return driver;
+				threadLocalDriver.set(driver);
+				return getDriver();
+			}
+			public static synchronized WebDriver getDriver() {
+				return threadLocalDriver.get();
 			}
 
 			public static void maximizeWindowMethod() {

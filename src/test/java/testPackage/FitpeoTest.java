@@ -2,11 +2,13 @@ package testPackage;
 
 import static org.testng.Assert.assertTrue;
 
+import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
+import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
@@ -18,6 +20,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
+import org.testng.SkipException;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
@@ -30,6 +33,7 @@ import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
 import io.qameta.allure.Step;
 import io.qameta.allure.Story;
+import basePackage.Allure_util;
 import pageObjectPackage.PageObjectClass;
 
 public class FitpeoTest  extends BaseClass{
@@ -150,4 +154,19 @@ public class FitpeoTest  extends BaseClass{
 		staticWaitMethod(3000);
 		clickMethod(pageObject.getOrderSummaryCancelButton());
 	}
+	@Test
+	public static void skipMethod() {
+		throw new SkipException("This method need to skip");
+	}
+
+@AfterSuite
+public static void tearDown() throws IOException, InterruptedException {
+	driver.quit();
+	Allure_util au = new Allure_util();
+	au.runAllureCommand("allure generate --clean");
+	File sourceFile = new File("allure-report/history");
+	File targetFile = new File("allure-results/history");
+	FileUtils.copyDirectory(sourceFile, targetFile);
+	au.runAllureReportCommand("allure serve");
+}
 }
