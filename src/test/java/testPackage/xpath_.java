@@ -17,10 +17,8 @@ public class xpath_ {
 		surya.navigate().to("https://artoftesting.com/samplesiteforselenium");
 		surya.manage().window().maximize();
 		surya.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-		
-		//Eight locatoirs
 		Thread.sleep(3000);
-	  WebElement a= surya.findElement(By.name("firstName"));
+WebElement a= surya.findElement(By.name("firstName"));
 	  a.sendKeys("Surya");
 	   Thread.sleep(3000);
 	   surya.findElement(By.id("idOfButton")).click();

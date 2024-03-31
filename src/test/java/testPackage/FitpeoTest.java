@@ -23,6 +23,7 @@ import org.testng.Assert;
 import org.testng.SkipException;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import basePackage.BaseClass;
@@ -33,9 +34,11 @@ import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
 import io.qameta.allure.Step;
 import io.qameta.allure.Story;
+import basePackage.AllureListener;
 import basePackage.Allure_util;
 import pageObjectPackage.PageObjectClass;
 
+@Listeners({AllureListener.class})
 public class FitpeoTest  extends BaseClass{
 	public static Logger logger;
 	public static WebDriver driver;
