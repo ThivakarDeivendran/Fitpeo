@@ -41,6 +41,7 @@ WebElement a= surya.findElement(By.name("firstName"));
 	   a.sendKeys("Priyanga");
 	   surya.close();
 	   surya.findElement(By.xpath("//tagname=[@attributeName='attributeValue']"));
+	   System.out.println("Suryachanges");
 	}
 
 }
