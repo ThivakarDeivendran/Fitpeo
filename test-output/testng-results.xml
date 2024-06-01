@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="5" passed="2" failed="2" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-06-01T15:56:26 IST" name="Default suite" finished-at="2024-06-01T15:56:53 IST" duration-ms="26779">
+  <suite started-at="2024-06-01T16:29:02 IST" name="Default suite" finished-at="2024-06-01T16:29:22 IST" duration-ms="19307">
     <groups>
     </groups>
-    <test started-at="2024-06-01T15:56:26 IST" name="Default test" finished-at="2024-06-01T15:56:53 IST" duration-ms="26779">
+    <test started-at="2024-06-01T16:29:02 IST" name="Default test" finished-at="2024-06-01T16:29:22 IST" duration-ms="19307">
       <class name="testPackage.FitpeoTest">
-        <test-method is-config="true" signature="logger()[pri:0, instance:testPackage.FitpeoTest@6cc558c6]" started-at="2024-06-01T15:56:26 IST" name="logger" finished-at="2024-06-01T15:56:26 IST" duration-ms="105" status="PASS">
+        <test-method is-config="true" signature="logger()[pri:0, instance:testPackage.FitpeoTest@5ddf0d24]" started-at="2024-06-01T16:29:03 IST" name="logger" finished-at="2024-06-01T16:29:03 IST" duration-ms="71" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logger -->
-        <test-method signature="skipMethod()[pri:0, instance:testPackage.FitpeoTest@6cc558c6]" started-at="2024-06-01T15:56:26 IST" name="skipMethod" finished-at="2024-06-01T15:56:26 IST" duration-ms="105" status="SKIP">
+        <test-method signature="skipMethod()[pri:0, instance:testPackage.FitpeoTest@5ddf0d24]" started-at="2024-06-01T16:29:03 IST" name="skipMethod" finished-at="2024-06-01T16:29:03 IST" duration-ms="75" status="SKIP">
           <exception class="org.testng.SkipException">
             <message>
               <![CDATA[This method need to skip]]>
@@ -20,9 +20,9 @@
               <![CDATA[org.testng.SkipException: This method need to skip
 at testPackage.FitpeoTest.skipMethod(FitpeoTest.java:162)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
 at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
 at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
@@ -31,7 +31,7 @@ at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java
 at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
 at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 at org.testng.TestRunner.privateRun(TestRunner.java:794)
 at org.testng.TestRunner.run(TestRunner.java:596)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
@@ -53,41 +53,42 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- skipMethod -->
-        <test-method signature="launchBrowserMethod()[pri:1, instance:testPackage.FitpeoTest@6cc558c6]" started-at="2024-06-01T15:56:26 IST" name="launchBrowserMethod" description=" Launch Browser Test" finished-at="2024-06-01T15:56:33 IST" duration-ms="6608" status="PASS">
+        <test-method signature="launchBrowserMethod()[pri:1, instance:testPackage.FitpeoTest@5ddf0d24]" started-at="2024-06-01T16:29:03 IST" name="launchBrowserMethod" description=" Launch Browser Test" finished-at="2024-06-01T16:29:07 IST" duration-ms="4564" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowserMethod -->
-        <test-method signature="UserLoginTitleMethod()[pri:2, instance:testPackage.FitpeoTest@6cc558c6]" started-at="2024-06-01T15:56:33 IST" name="UserLoginTitleMethod" description="FlipKark Home Page" finished-at="2024-06-01T15:56:38 IST" duration-ms="5663" status="PASS">
+        <test-method signature="UserLoginTitleMethod()[pri:2, instance:testPackage.FitpeoTest@5ddf0d24]" started-at="2024-06-01T16:29:07 IST" name="UserLoginTitleMethod" description="FlipKark Home Page" finished-at="2024-06-01T16:29:12 IST" duration-ms="4622" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UserLoginTitleMethod -->
-        <test-method signature="SearchAndAddToCartMethod()[pri:3, instance:testPackage.FitpeoTest@6cc558c6]" started-at="2024-06-01T15:56:38 IST" name="SearchAndAddToCartMethod" description="FlipKark Search And Add To Cart" finished-at="2024-06-01T15:56:50 IST" duration-ms="11644" status="FAIL">
+        <test-method signature="SearchAndAddToCartMethod()[pri:3, instance:testPackage.FitpeoTest@5ddf0d24]" started-at="2024-06-01T16:29:12 IST" name="SearchAndAddToCartMethod" description="FlipKark Search And Add To Cart" finished-at="2024-06-01T16:29:19 IST" duration-ms="7363" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"(//div[@class='_4rR01T'])[1]"}
-  (Session info: chrome=125.0.6422.141)
+  (Session info: chrome=125.0.6422.114)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'THIVAKARDEIVEND', ip: '192.168.29.118', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+System info: host: 'BALASUNDAR', ip: '192.168.29.8', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.141, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\Users\USER\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60188}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: ebd3465bf6ec7a5866e310b2035340e9
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.114, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\Users\balas\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50479}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a929ea886b95eed15b5a56130e88bd46
 *** Element info: {Using=xpath, value=(//div[@class='_4rR01T'])[1]}]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//div[@class='_4rR01T'])[1]"}
-  (Session info: chrome=125.0.6422.141)
+  (Session info: chrome=125.0.6422.114)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'THIVAKARDEIVEND', ip: '192.168.29.118', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+System info: host: 'BALASUNDAR', ip: '192.168.29.8', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.141, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\Users\USER\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60188}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: ebd3465bf6ec7a5866e310b2035340e9
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.114, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\Users\balas\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50479}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a929ea886b95eed15b5a56130e88bd46
 *** Element info: {Using=xpath, value=(//div[@class='_4rR01T'])[1]}
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
 at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
 at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
 at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
@@ -100,13 +101,13 @@ at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
 at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at com.sun.proxy.$Proxy24.click(Unknown Source)
-at basePackage.BaseClass.clickMethod(BaseClass.java:142)
+at jdk.proxy2/jdk.proxy2.$Proxy24.click(Unknown Source)
+at basePackage.BaseClass.clickMethod(BaseClass.java:143)
 at testPackage.FitpeoTest.SearchAndAddToCartMethod(FitpeoTest.java:103)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
 at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
 at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
@@ -115,7 +116,7 @@ at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java
 at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
 at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 at org.testng.TestRunner.privateRun(TestRunner.java:794)
 at org.testng.TestRunner.run(TestRunner.java:596)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
@@ -137,33 +138,34 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SearchAndAddToCartMethod -->
-        <test-method signature="ShippingPaymentMethod()[pri:4, instance:testPackage.FitpeoTest@6cc558c6]" started-at="2024-06-01T15:56:50 IST" name="ShippingPaymentMethod" description="FlipKark order Summary and Payment option" finished-at="2024-06-01T15:56:52 IST" duration-ms="2084" status="FAIL">
+        <test-method signature="ShippingPaymentMethod()[pri:4, instance:testPackage.FitpeoTest@5ddf0d24]" started-at="2024-06-01T16:29:20 IST" name="ShippingPaymentMethod" description="FlipKark order Summary and Payment option" finished-at="2024-06-01T16:29:22 IST" duration-ms="2092" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='CONTINUE']/parent::button"}
-  (Session info: chrome=125.0.6422.141)
+  (Session info: chrome=125.0.6422.114)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'THIVAKARDEIVEND', ip: '192.168.29.118', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+System info: host: 'BALASUNDAR', ip: '192.168.29.8', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.141, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\Users\USER\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60188}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: ebd3465bf6ec7a5866e310b2035340e9
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.114, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\Users\balas\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50479}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a929ea886b95eed15b5a56130e88bd46
 *** Element info: {Using=xpath, value=//span[text()='CONTINUE']/parent::button}]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='CONTINUE']/parent::button"}
-  (Session info: chrome=125.0.6422.141)
+  (Session info: chrome=125.0.6422.114)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'THIVAKARDEIVEND', ip: '192.168.29.118', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+System info: host: 'BALASUNDAR', ip: '192.168.29.8', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.141, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\Users\USER\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60188}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: ebd3465bf6ec7a5866e310b2035340e9
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.114, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\Users\balas\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50479}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a929ea886b95eed15b5a56130e88bd46
 *** Element info: {Using=xpath, value=//span[text()='CONTINUE']/parent::button}
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
 at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
 at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
 at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
@@ -176,13 +178,13 @@ at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
 at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at com.sun.proxy.$Proxy24.click(Unknown Source)
-at basePackage.BaseClass.clickMethod(BaseClass.java:142)
+at jdk.proxy2/jdk.proxy2.$Proxy24.click(Unknown Source)
+at basePackage.BaseClass.clickMethod(BaseClass.java:143)
 at testPackage.FitpeoTest.ShippingPaymentMethod(FitpeoTest.java:132)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
 at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
 at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
@@ -191,7 +193,7 @@ at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java
 at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
 at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 at org.testng.TestRunner.privateRun(TestRunner.java:794)
 at org.testng.TestRunner.run(TestRunner.java:596)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
@@ -213,11 +215,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ShippingPaymentMethod -->
-        <test-method is-config="true" signature="quitMethod()[pri:0, instance:testPackage.FitpeoTest@6cc558c6]" started-at="2024-06-01T15:56:53 IST" name="quitMethod" finished-at="2024-06-01T15:56:54 IST" duration-ms="1704" status="PASS">
+        <test-method is-config="true" signature="quitMethod()[pri:0, instance:testPackage.FitpeoTest@5ddf0d24]" started-at="2024-06-01T16:29:22 IST" name="quitMethod" finished-at="2024-06-01T16:29:22 IST" duration-ms="544" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitMethod -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testPackage.FitpeoTest@6cc558c6]" started-at="2024-06-01T15:56:54 IST" name="tearDown" finished-at="2024-06-01T15:56:59 IST" duration-ms="4863" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testPackage.FitpeoTest@5ddf0d24]" started-at="2024-06-01T16:29:22 IST" name="tearDown" finished-at="2024-06-01T16:29:23 IST" duration-ms="109" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
