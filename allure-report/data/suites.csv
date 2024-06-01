@@ -1,0 +1,7 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"broken","Sat Jun 01 15:56:50 IST 2024","Sat Jun 01 15:56:53 IST 2024","2250","Default suite","Default test","testPackage.FitpeoTest","testPackage.FitpeoTest","ShippingPaymentMethod","FlipKark order Summary and Payment option","Flipkart Order Summary and Payment Validation"
+"passed","Sat Jun 01 15:56:33 IST 2024","Sat Jun 01 15:56:38 IST 2024","5658","Default suite","Default test","testPackage.FitpeoTest","testPackage.FitpeoTest","UserLoginTitleMethod","FlipKark Home Page","Flipkart Home Page Validation"
+"passed","Sat Jun 01 15:56:26 IST 2024","Sat Jun 01 15:56:33 IST 2024","6599","Default suite","Default test","testPackage.FitpeoTest","testPackage.FitpeoTest","launchBrowserMethod"," Launch Browser Test","Launch User Defined Browser"
+"broken","Sat Jun 01 15:25:34 IST 2024","Sat Jun 01 15:25:34 IST 2024","0","Default suite","Default test","testPackage.FitpeoTest","testPackage.FitpeoTest","tearDown","tearDown",""
+"broken","Sat Jun 01 15:56:39 IST 2024","Sat Jun 01 15:56:50 IST 2024","11797","Default suite","Default test","testPackage.FitpeoTest","testPackage.FitpeoTest","SearchAndAddToCartMethod","FlipKark Search And Add To Cart","Flipkart Search and AddToCart Validation"
+"skipped","Sat Jun 01 15:56:26 IST 2024","Sat Jun 01 15:56:26 IST 2024","11","Default suite","Default test","testPackage.FitpeoTest","testPackage.FitpeoTest","skipMethod","skipMethod",""

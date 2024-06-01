@@ -42,10 +42,7 @@ public class BaseClass {
 				try {
 				switch (browser) {
 				case "Chrome":
-//					ChromeOptions option = new ChromeOptions();
-//		            option.addArguments("--remote-allow-origins=*");
-//					WebDriverManager.chromedriver().setup();
-					System.setProperty("webdriver.chrome.driver",".\\Driver\\chromedriver.exe");
+					WebDriverManager.chromedriver().setup();					
 					driver = new ChromeDriver();
 					break;
 				case "Edge":
