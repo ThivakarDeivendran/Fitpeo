@@ -40,6 +40,8 @@ import pageObjectPackage.PageObjectClass;
 
 @Listeners({AllureListener.class})
 public class FitpeoTest  extends BaseClass{
+	
+	
 	public static Logger logger;
 	public static WebDriver driver;
 	public static PageObjectClass pageObject;
@@ -47,6 +49,8 @@ public class FitpeoTest  extends BaseClass{
 	
 	@BeforeClass
 	public static Logger logger() {
+		
+		System.out.println("changes made");
 		logger = Logger.getLogger("FlipKart App");
 		PropertyConfigurator.configure("log4j.properties");
 		logger.setLevel(Level.DEBUG);
